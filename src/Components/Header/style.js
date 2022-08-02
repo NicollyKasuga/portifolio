@@ -72,16 +72,19 @@ export const ModalContainer = styled.div`
   display: grid;
   grid-auto-columns: 1fr;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   gap: 0px 0px;
   grid-template-areas:
     "d"
     "e"
     "f"
-    "g";
+    "g"
+    "h";
   justify-items: center;
   align-items: center;
   display: ${(props) => (props.modal ? "" : "none")};
+  box-sizing: content-box;
+  padding-bottom: 12px;
 
   .contactButton {
     display: flex;
@@ -105,9 +108,17 @@ export const ModalContainer = styled.div`
     background-repeat: no-repeat;
     width: 120px;
     height: 37px;
+    font-size: 14px;
+    cursor: pointer;
   }
 
   .arrowButton {
     margin-left: 2px;
+  }
+
+  a {
+    color: var(--bluecyan);
+    font-weight: bold;
+    cursor: pointer;
   }
 `;

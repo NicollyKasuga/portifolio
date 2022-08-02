@@ -5,7 +5,7 @@ import { Container } from "./style";
 
 const Contact = () => {
   return (
-    <Container>
+    <Container id="contact">
       <div className="contactBox">
         <h1>Contato</h1>
         <p>

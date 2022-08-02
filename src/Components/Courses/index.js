@@ -5,7 +5,7 @@ import { Container, CoursesBox, Course } from "./style";
 
 const Courses = () => {
   return (
-    <Container>
+    <Container id="courses">
       <CoursesBox>
         <img className="retangle" src={retangle} alt="" />
         <div className="coursesSection">
