@@ -5,6 +5,7 @@ export const Container = styled.div`
   height: 65vh;
   display: flex;
   align-items: center;
+  max-height: 370px;
 
   .boxContent {
     width: 75%;
