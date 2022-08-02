@@ -1,0 +1,34 @@
+<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.75 6L8.25 10.5" stroke="url(#paint0_diamond_18_158)" stroke-opacity="0.81" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 10.5L7.5 6L9 3.75" stroke="url(#paint1_diamond_18_158)" stroke-opacity="0.81" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1.5 3.75H10.5" stroke="url(#paint2_diamond_18_158)" stroke-opacity="0.81" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.25 1.5H6" stroke="url(#paint3_diamond_18_158)" stroke-opacity="0.81" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16.5 16.5L12.75 9L9 16.5" stroke="url(#paint4_diamond_18_158)" stroke-opacity="0.81" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.5 13.5H15" stroke="url(#paint5_diamond_18_158)" stroke-opacity="0.81" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<radialGradient id="paint0_diamond_18_158" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(6 8.25) rotate(90) scale(2.25)">
+<stop stop-color="#B198FF"/>
+<stop offset="1" stop-color="#2B5FDA"/>
+</radialGradient>
+<radialGradient id="paint1_diamond_18_158" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(6 7.125) rotate(90) scale(3.375 3)">
+<stop stop-color="#B198FF"/>
+<stop offset="1" stop-color="#2B5FDA"/>
+</radialGradient>
+<radialGradient id="paint2_diamond_18_158" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(6 4.25) rotate(90) scale(0.5 4.5)">
+<stop stop-color="#B198FF"/>
+<stop offset="1" stop-color="#2B5FDA"/>
+</radialGradient>
+<radialGradient id="paint3_diamond_18_158" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(5.625 2) rotate(90) scale(0.5 0.375)">
+<stop stop-color="#B198FF"/>
+<stop offset="1" stop-color="#2B5FDA"/>
+</radialGradient>
+<radialGradient id="paint4_diamond_18_158" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(12.75 12.75) rotate(90) scale(3.75)">
+<stop stop-color="#B198FF"/>
+<stop offset="1" stop-color="#2B5FDA"/>
+</radialGradient>
+<radialGradient id="paint5_diamond_18_158" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(12.75 14) rotate(90) scale(0.5 2.25)">
+<stop stop-color="#B198FF"/>
+<stop offset="1" stop-color="#2B5FDA"/>
+</radialGradient>
+</defs>
+</svg>
