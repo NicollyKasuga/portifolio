@@ -4,7 +4,7 @@ import { HiOutlineDownload } from "react-icons/hi";
 
 const Skills = () => {
   return (
-    <Container>
+    <Container id="skills">
       <h1>Skills</h1>
       <Card>
         <h2>Front-end</h2>

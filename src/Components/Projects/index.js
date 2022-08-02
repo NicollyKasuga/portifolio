@@ -55,7 +55,7 @@ const Projects = () => {
   };
 
   return (
-    <Container>
+    <Container id="projects">
       <h1 className="titleContainer">Projetos</h1>
       {data.map((project, index) => {
         return (

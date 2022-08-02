@@ -4,6 +4,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import { AiOutlineClose } from "react-icons/ai";
 import { Container, ModalContainer } from "./style";
 import { useState } from "react";
+import { Link } from "react-scroll";
 
 const Header = () => {
   const [modal, setModal] = useState(false);
@@ -48,12 +49,62 @@ const Header = () => {
         </div>
       </Container>
       <ModalContainer modal={modal}>
-        <h4>Quem sou eu</h4>
-        <h4>Skills</h4>
-        <h4>Projetos</h4>
-        <button className="contactButton">
+        <Link
+          activeClass="active"
+          to="aboutMe"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          onClick={() => handleModal()}
+        >
+          Quem sou eu
+        </Link>
+        <Link
+          activeClass="skills"
+          to="skills"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          onClick={() => handleModal()}
+        >
+          Skills
+        </Link>
+        <Link
+          activeClass="active"
+          to="projects"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          onClick={() => handleModal()}
+        >
+          Projetos
+        </Link>
+        <Link
+          activeClass="active"
+          to="courses"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          onClick={() => handleModal()}
+        >
+          Cursos
+        </Link>
+        <Link
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className="contactButton"
+          onClick={() => handleModal()}
+        >
           CONTATO <IoIosArrowForward className="arrowButton" />
-        </button>
+        </Link>
       </ModalContainer>
     </>
   );

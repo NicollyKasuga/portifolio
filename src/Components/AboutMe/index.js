@@ -3,7 +3,7 @@ import block from "../../assets/block.svg";
 
 const AboutMe = () => {
   return (
-    <Container>
+    <Container id="aboutMe">
       <div className="boxContent">
         <img src={block} alt="block" />
         <h1>
