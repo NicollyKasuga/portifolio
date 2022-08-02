@@ -114,18 +114,18 @@ const Projects = () => {
                 {!infoToogle ? (
                   <div className="infoSection">
                     <div className="problemContainer">
-                      <h2 className="problemTitle">Problema</h2>
+                      <h2 className="problemTitle">Problema:</h2>
                       <p className="problemParagraph">{project.problema}</p>
                     </div>
 
                     <div className="solutionContainer">
-                      <h2 className="solutionsTitle">Solução</h2>
+                      <h2 className="solutionsTitle">Solução:</h2>
                       <p className="solutionParagraph">{project.solucao}</p>
                     </div>
                   </div>
                 ) : (
                   <div className="tecnologiesSection">
-                    <h2 className="tecnologiesTitle">Tecnologias</h2>
+                    <h2 className="tecnologiesTitle">Tecnologias:</h2>
                     <p className="tecnologiesParagraph">
                       {project.tecnologias.join(", ")}
                     </p>
